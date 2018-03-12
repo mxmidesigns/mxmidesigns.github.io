@@ -1,9 +1,14 @@
+body {
+  background: #AFE1DE;
+  background-image:
+  url("https://nerdist.com/wp-content/uploads/2017/09/porgs-disney-twitter-official.jpg");
+}
+
+
 h1 {
-  color: pink;
+  color: white;
 }
 
 h2 {
-  color: pink;
-	background-image:
-          url("https://nerdist.com/wp-content/uploads/2017/09/porgs-disney-twitter-official.jpg");
+  color: white;
 }
