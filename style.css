@@ -1,12 +1,6 @@
-body {
-  background: #white;
-  background-image:
-  url("https://nerdist.com/wp-content/uploads/2017/09/porgs-disney-twitter-official.jpg");
-  background-repeat: no-repeat;
-  background-position: right 0 bottom 1000px;
-  background-size: 1500px 300px;
+.header-site{
+   background: url("https://nerdist.com/wp-content/uploads/2017/09/porgs-disney-twitter-official.jpg");
 }
-
 
 h1 {
   color: orange;
