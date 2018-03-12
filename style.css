@@ -30,3 +30,8 @@ a {
     color: white;
     font-family: 'Indie Flower', cursive;
 }
+
+a:link {
+    color: orange;
+    font-family: 'Indie Flower', cursive;
+}
