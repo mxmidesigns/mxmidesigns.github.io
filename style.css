@@ -4,7 +4,7 @@ body { background-color:#8F7C7C;
 
 h1 {
   color: orange;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Bungee Shade', cursive;
   font-size: 30px;
 }
 
@@ -19,19 +19,19 @@ h3 {
 }
 
 p {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 ol {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
     color: white;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
-a:hover{
+a:hover {
     color: orange;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
 }
