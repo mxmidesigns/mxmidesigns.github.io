@@ -23,6 +23,10 @@ h1 {
 h2 {
   color: orange;
     font-family: 'Indie Flower', cursive;
+    background-image:
+    url("https://metrouk2.files.wordpress.com/2017/08/porgs_sw01.png?w=748&h=492&crop=1");
+    background-position: right center;
+    background-repeat: no-repeat;
 }
 
 h3 {
@@ -46,8 +50,4 @@ a {
 a:hover {
     color: black;
     font-family: 'Roboto', sans-serif;
-}
-
-p1 {
-    background-position: right center;
 }
