@@ -1,11 +1,16 @@
 body { background-color:#8F7C7C;
 }
 
+#porg-header {
+  margin: 15px 15px 15px;
+  border: 1px solid white;
+}
 
 h1 {
   color: orange;
   font-family: 'Bungee Shade', cursive;
   font-size: 100px;
+  top: 150px
 
 }
 
