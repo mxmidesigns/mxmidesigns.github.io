@@ -7,16 +7,16 @@
  */
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: #778899;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: #999;
+  color: #ffffff;
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
-  color: #fff;
+  color: #FFFACD;
   text-decoration: none;
 }
 
@@ -27,13 +27,14 @@
 .product-device {
   position: absolute;
   right: 10%;
-  bottom: -20%;
+  bottom: -10%;
   width: 300px;
   height: 540px;
-  background-color: #FFB6C1;
+  background-color: #FFC0CB;
   border-radius: 21px;
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .product-device::before {
@@ -43,7 +44,9 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-color: #FFC0CB;
+  background-color:#FFB6C1;
+  background-image: url("https://image.ibb.co/jKFJ7x/i_Phone_7_copy_2.png");
+  background-repeat: no-repeat;
   border-radius: 5px;
 }
 
