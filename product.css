@@ -51,57 +51,6 @@
 }
 
 
-.skills ul {
-	list-style: none;
-	padding-left: 0px;
-	}
-
-.skills ul li {
-	margin-bottom: 15px;
-}
-
-.skills p {
-	padding: 3px 10px 10px 15px;
-	color: #ffffff;
-	font-size: 15px;
-	width: 100%;
-}
-
-.skill1 {
-	background: #f8b195;
-	width: 300px;
-	height: 27px;
-}
-
-.skill2 {
-	background: #f67280;
-	width: 300px;
-	height: 27px;
-}
-
-.skill3 {
-	background: #6c5878;
-	width: 260px;
-	height: 27px;
-}
-
-.skill4 {
-	background: #a0d468;
-	width: 230px;
-	height: 27px;
-}
-
-.skill5 {
-	background: #48cfad;
-	width: 190px;
-	height: 27px;
-}
-
-.skill6 {
-	background: #ffce54;
-	width: 160px;
-	height: 27px;
-}
 
 
 
