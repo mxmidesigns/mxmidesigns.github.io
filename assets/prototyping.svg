@@ -4,24 +4,20 @@
     <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="122" y="236" width="70" height="12"></rect>
-        <rect id="path-2" x="50" y="95" width="202" height="123"></rect>
-        <rect id="path-3" x="164" y="168" width="53" height="37"></rect>
+        <rect id="path-1" x="50" y="95" width="202" height="123"></rect>
+        <rect id="path-2" x="164" y="168" width="53" height="37"></rect>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group" transform="translate(-9.000000, -12.000000)">
-            <circle id="Oval" fill-opacity="0.890568388" fill="#C06C84" cx="156.5" cy="159.5" r="147.5"></circle>
-            <g id="Rectangle-3">
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                <rect stroke="#000000" stroke-width="3" x="123.5" y="237.5" width="67" height="9"></rect>
-            </g>
+            <circle id="Oval" fill-opacity="0.890568388" fill="#C1E4DD" cx="156.5" cy="159.5" r="147.5"></circle>
+            <rect id="Rectangle-3" fill="#9A9A9A" x="122" y="236" width="70" height="12"></rect>
             <g id="Rectangle">
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
-                <rect stroke="#000000" stroke-width="5" x="52.5" y="97.5" width="197" height="118"></rect>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#FFFFFF" stroke-width="5" x="52.5" y="97.5" width="197" height="118"></rect>
             </g>
             <g id="Rectangle-2">
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
-                <rect stroke="#000000" stroke-width="4" x="166" y="170" width="49" height="33"></rect>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#3F3F3F" stroke-width="4" x="166" y="170" width="49" height="33"></rect>
             </g>
             <path d="M166.5,126 L209.5,126" id="Line" stroke="#575757" stroke-width="6" stroke-linecap="square"></path>
             <path d="M166.5,140 L236,140" id="Line" stroke="#5B5B5B" stroke-width="6" stroke-linecap="square"></path>
@@ -42,7 +38,7 @@
             <ellipse id="Oval-2" fill="#7F7D7D" cx="126.357143" cy="126.333333" rx="8.35714286" ry="9.33333333"></ellipse>
             <ellipse id="Oval-2" fill="#7F7D7D" cx="71.3571429" cy="191.333333" rx="8.35714286" ry="9.33333333"></ellipse>
             <ellipse id="Oval-2" fill="#7F7D7D" cx="126.357143" cy="191.333333" rx="8.35714286" ry="9.33333333"></ellipse>
-            <path d="M156.5,218.5 L156.5,235.5" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+            <path d="M156.5,220.5 L156.5,235.5" id="Line" stroke="#A1A0A0" stroke-width="5" stroke-linecap="square"></path>
         </g>
     </g>
 </svg>

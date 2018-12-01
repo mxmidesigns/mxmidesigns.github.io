@@ -1,8 +1,19 @@
+.about_me_header{
+	width: 100%;
+	height: 1050px;
+	background: url("./../assets/mountain_header.svg") no-repeat center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:inline-block;
+}
+
+
 .about_me_description {
-  padding: 0 32px;
   text-align: left;
-  margin-left: 50px;
+  padding-right: 100px;
   line-height: 2;
+  color: black;
+  width: 100%;
 }
 
 .about_me_photo {
@@ -13,4 +24,55 @@
 	padding: 50px;
 	background: url("./../assets/aboutme_photo.jpg") no-repeat center;
 	background-size: 400px 500px;
+}
+
+
+.about_me{
+	background-color: white;
+	height: 100%;
+	: hidden;
+	text-align: center;
+
+
+}
+
+
+.about_me_button_container{
+	padding-top: 30px;
+}
+
+.about_me_button{
+	background-color: #e76d89;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1080px) {
+
+	p.about_me_description {
+	  margin-left: 50px;
+	}
+
+	.about_me_photo {
+		height: 500px;
+		background-size: 500px 600px;
+	}
+
+	.about_me_button_container{
+		padding-bottom: 30px;
+	}
+
+	.about_me_button{
+		padding: 15px 32px;
+		font-size: 40px;
+	}
+
 }

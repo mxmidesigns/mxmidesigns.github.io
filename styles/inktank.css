@@ -1,9 +1,24 @@
 .inktank_cover {
     width: 100%;
     height: 600px;
-    background: url("./../assets/inktank_cover.jpg") no-repeat;
+    background: url("./../assets/inktank_header_cover.jpg") no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.inktank_project_title {
+	text-align: center;
+	font-size: 90px;
+	padding-top: 200px;
+	color: white;
+}
+
+.inktank_project_subtitle{
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	padding-top: 20px;
+	color: white;
 }
 
 .inktank_button_project_container {
@@ -13,7 +28,8 @@
 
 .inktank_button_project {
     margin-top: 25px;
-    background-color: #FF43B6;
+	margin-bottom: 25px;
+    background-color: #0074D9;
     border: none;
     padding: 15px 32px;
     color: white;
@@ -47,7 +63,7 @@
 }
 
 .inktank_categories {
-    color: #FF43B6;
+    color: #0074D9;
     padding-top: 25px;
     padding-bottom: 20px;
 }
@@ -64,15 +80,16 @@
 
 .inktank_intro {
     text-align: center;
-    color: #FF43B6;
-    padding-bottom: 30px;
+    color: #0074D9;
+    padding-bottom: 10px;
 }
 
 .inktank_title {
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-	padding-top: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .inktank_details {
@@ -89,6 +106,14 @@
 
 .list_items {
     margin-bottom: 16px;
+	line-height: 2;
+}
+
+.issue_items{
+	padding-left: 32px;
+	margin-bottom: 16px;
+	color: #0074D9;
+	font-weight: bold;
 }
 
 .main-carousel {
@@ -165,12 +190,17 @@
     background-size: 100% 100%;
 }
 
+.competitor_icons{
+	text-align:center;
+	word-spacing: 30px;
+}
+
 .persona1_gallery_cell {
     width: 100%;
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/lauren_persona1.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
 .persona2_gallery_cell {
@@ -178,7 +208,7 @@
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/natalie_persona2.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
 .persona3_gallery_cell {
@@ -186,7 +216,7 @@
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/danny_persona3.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
 .journeymap1_gallery_cell{
@@ -194,7 +224,7 @@
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/lauren_journeymap.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
 }
 
 .journeymap2_gallery_cell{
@@ -202,7 +232,15 @@
     height: 500px;
     counter-increment: gallery-cell;
     background: url("./../assets/danny_journeymap.jpg") no-repeat center;
-    background-size: 100% 100%;
+    background-size: 850px 500px;
+}
+
+.affinitymap {
+    width: 800px;
+    height: 600px;
+    background: url("./../assets/affinitymap.svg") no-repeat center;
+    background-size: 800px 600px;
+	margin: 0 auto;
 }
 
 .ia1_gallery_cell{
@@ -210,7 +248,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/inktank_sitemap.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 850px 500px;
 }
 
 .ia2_gallery_cell{
@@ -218,7 +256,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/card_sorting.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 850px 500px;
 }
 
 .ia3_gallery_cell{
@@ -226,7 +264,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/similarity_matrix.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 550px 500px;
 }
 
 
@@ -235,7 +273,7 @@
 	height: 1000px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/lauren_user_flow.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 900px 1000px;
 }
 
 .natalie_userflow_gallery_cell{
@@ -243,7 +281,7 @@
 	height: 1000px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/natalie_user_flow.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 900px 1000px;
 }
 
 .danny_userflow_gallery_cell{
@@ -251,7 +289,7 @@
 	height: 900px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/danny_user_flow.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1000px 900px;
 }
 
 
@@ -261,7 +299,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/lowfidelity1.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1000px 500px;
 }
 
 .lowfidelity2_gallery_cell{
@@ -269,7 +307,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/lowfidelity2.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1100px 500px;
 }
 
 .lowfidelity3_gallery_cell{
@@ -277,7 +315,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/lowfidelity3.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1100px 500px;
 }
 
 .midfidelity1_gallery_cell{
@@ -285,7 +323,7 @@
 	height: 600px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/midfidelity1.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1100px 600px;
 }
 
 .midfidelity2_gallery_cell{
@@ -293,7 +331,7 @@
 	height: 600px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/midfidelity2.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1100px 600px;
 }
 
 .midfidelity3_gallery_cell{
@@ -301,7 +339,7 @@
 	height: 600px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/midfidelity3.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1100px 600px;
 }
 
 .highfidelity1_gallery_cell{
@@ -309,7 +347,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/highfidelity1.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1000px 500px;
 }
 
 .highfidelity2_gallery_cell{
@@ -317,7 +355,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/highfidelity2.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1200px 500px;
 }
 
 .highfidelity3_gallery_cell{
@@ -325,39 +363,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/highfidelity3.jpg") no-repeat center;
-	background-size: 100% 100%;
-}
-
-.user_testing_issues_gallery_cell{
-	width: 100%;
-	height: 800px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/user_testing_issues.jpg") no-repeat center;
-	background-size: 100% 100%;
-}
-
-.test_plan_gallery_cell{
-	width: 100%;
-	height: 800px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/test_plan.jpg") no-repeat center;
-	background-size: 100% 100%;
-}
-
-.test_plan_2_gallery_cell{
-	width: 100%;
-	height: 800px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/test_plan2.jpg") no-repeat center;
-	background-size: 100% 100%;
-}
-
-.rainbow_analysis_gallery_cell{
-	width: 100%;
-	height: 800px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/rainbow_analysis.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1200px 500px;
 }
 
 .iteration1_gallery_cell{
@@ -365,7 +371,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/iteration1.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1000px 500px;
 }
 
 .iteration2_gallery_cell{
@@ -373,7 +379,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/iteration2.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1000px 500px;
 }
 
 .final_ui1_gallery_cell{
@@ -381,7 +387,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/final_ui1.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1100px 500px;
 }
 
 .final_ui2_gallery_cell{
@@ -389,7 +395,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/final_ui2.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1100px 500px;
 }
 
 .final_ui3_gallery_cell{
@@ -397,7 +403,7 @@
 	height: 500px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/final_ui3.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1100px 500px;
 }
 
 .final_ui4_gallery_cell{
@@ -405,7 +411,7 @@
 	height: 400px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/final_ui4.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1200px 400px;
 }
 
 .final_ui5_gallery_cell{
@@ -413,9 +419,96 @@
 	height: 400px;
 	counter-increment: gallery-cell;
 	background: url("./../assets/final_ui5.jpg") no-repeat center;
-	background-size: 100% 100%;
+	background-size: 1200px 400px;
 }
 
+.color_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/color.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.typography_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/typography.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.bars_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/bars.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.button_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/button.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.alert_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/alert.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.pickers_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/pickers.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.snack_bar_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/snack_bar.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.grid_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/grid.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.icons_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/icons.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.imagery_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/imagery.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
+
+.tone_gallery_cell{
+	width: 100%;
+	height: 800px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/tone.jpg") no-repeat center;
+	background-size: 950px 800px;
+}
 /* cell number */
 .gallery_cell:before {
     display: block;
@@ -427,65 +520,395 @@
 }
 
 .inktank_divider {
-    height: 1px;
-    width: 100%;
+    height: 2px;
+    width: 80%;
     display: block;
-    background-color: grey;
+    background-color: #f2f2f2;
+	padding: 0 16px;
+	margin: 8px auto;
 }
 
-.affinitymap {
-    width: 800px;
-    height: 600px;
-    background: url("./../assets/affinitymap.svg") no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+.table_header{
+	background-color: #0074D9;
+	color: white;
+	font-size: 1.5em;
+	padding: 1rem;
+	text-align: center;
+	text-transform: uppercase;
 }
+
+table {
+  width: 100%;
+}
+
+table th{
+	background-color: #daeff1;
+	height: 50px;
+}
+
+table td{
+	text-align: left;
+    vertical-align: middle;
+	padding-bottom: 25px;
+	line-height: 1.5;
+}
+
+table td, table th {
+  padding: 10px;
+}
+
+.table_icons {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+}
+
+
+table tr:nth-child(2n) {
+  background-color: white;
+}
+table tr:nth-child(2n+1) {
+  background-color: #edf7f8;
+}
+
+.table-users {
+  border: 1px solid #327a81;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  max-width: calc(100% - 2em);
+  margin: 1em auto;
+  overflow: hidden;
+  width: 800px;
+}
+
 
 @media screen and (max-width: 1080px) {
 	p.inktank_description {
 		margin-left: 0;
 		width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 	p.inktank_details {
 		margin-left: 0;
 		margin-right: 0;
-		padding-left: 8px;
-		padding-right: 8px;
+		padding-left: 30px;
+		padding-right: 30px;
 		width: 100%;
 	}
 
+	.key_list {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
 	.prototype_screen1_gallery_cell{
-	    background-size: 320px 600px;
+	    background-size: 400px 800px;
+		height: 800px;
 	}
 
 	.prototype_screen2_gallery_cell{
-	    background-size: 300px 600px;
+	   background-size: 400px 800px;
+		height: 800px;
 	}
 
 	.prototype_screen3_gallery_cell{
-	    background-size: 300px 600px;
+	    background-size: 400px 800px;
+		height: 800px;
 	}
 
 	.prototype_screen4_gallery_cell{
-	    background-size: 300px 600px;
+	    background-size: 400px 800px;
+		height: 800px;
 	}
 
 	.prototype_screen5_gallery_cell{
-	    background-size: 300px 600px;
+	    background-size: 400px 800px;
+		height: 800px;
 	}
 
 	.prototype_screen6_gallery_cell{
-	    background-size: 300px 600px;
+	    background-size: 400px 800px;
+		height: 800px;
 	}
 
 	.inktank_button_project {
-	    font-size: 32px;
+	    font-size: 40px;
 	}
 
 	.inktank_categories {
 	   text-align: center;
 	}
 
+	.inktank_cover {
+	    height: 600px;
+	}
+
+	.inktank_project_title {
+		font-size: 100px;
+		padding-top: 200px;
+	}
+
+	.inktank_project_subtitle{
+		font-size: 30px;
+		padding-top: 20px;
+	}
+
+
+	.persona1_gallery_cell {
+	    height: 250px;
+	    background-size: 400px 250px;
+	}
+
+	.persona2_gallery_cell {
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.persona3_gallery_cell {
+	    height: 250px;
+	    background-size: 400px 250px;
+	}
+
+	.journeymap1_gallery_cell{
+	    height: 250px;
+	    background-size: 400px 250px;
+	}
+
+	.journeymap2_gallery_cell{
+		height: 250px;
+  	    background-size: 400px 250px;
+	}
+
+	.ia1_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.ia2_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.ia3_gallery_cell{
+		height: 250px;
+		background-size: 300px 250px;
+	}
+
+	.affinitymap {
+	    height: 250px;
+		width: 300px;
+	    background-size: 300px 250px;
 }
+
+
+	.lauren_userflow_gallery_cell{
+		height: 500px;
+		background-size: 400px 500px;
+	}
+
+	.natalie_userflow_gallery_cell{
+		height: 500px;
+		background-size: 400px 500px;
+	}
+
+	.danny_userflow_gallery_cell{
+		height: 550px;
+		background-size: 400px 550px;
+	}
+
+	.lowfidelity1_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.lowfidelity2_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.lowfidelity3_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.midfidelity1_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.midfidelity2_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.midfidelity3_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px;
+	}
+
+	.highfidelity1_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.highfidelity2_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.highfidelity3_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.iteration1_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.iteration2_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.final_ui1_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.final_ui2_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.final_ui3_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.final_ui4_gallery_cell{
+		height: 150px;
+		background-size: 400px 150px;
+	}
+
+	.final_ui5_gallery_cell{
+		height: 150px;
+		background-size: 400px 150px;
+	}
+
+	.color_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.typography_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.bars_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.button_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.alert_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.pickers_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.snack_bar_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.grid_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.icons_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.imagery_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	.tone_gallery_cell{
+		height: 300px;
+		background-size: 350px 300px;
+	}
+
+	table, tr, td {
+	    display: block;
+	  }
+
+	  td:first-child {
+	    position: absolute;
+	    top: 50%;
+	    -webkit-transform: translateY(-50%);
+	            transform: translateY(-50%);
+	    width: 100px;
+	  }
+	  td:not(:first-child) {
+	    clear: both;
+	    margin-left: 25px;
+	    padding: 4px 20px 4px 250px;
+	    position: relative;
+	    text-align: left;
+	  }
+	  td:not(:first-child):before {
+	    color: #0074D9;
+	    content: '';
+	    display: block;
+	    left: 0;
+	    position: absolute;
+	  }
+	  td:nth-child(2):before {
+	    content: 'Issue:';
+		font-size: 40px;
+		width: 200px;
+	  }
+	  td:nth-child(3):before {
+	    content: 'Severity:';
+		font-size: 40px;
+		width: 200px;
+	  }
+	  td:nth-child(4):before {
+	    content: 'Change:';
+		font-size: 40px;
+		width: 200px;
+	  }
+	  td:nth-child(5):before {
+	    content: 'Evidence:';
+		font-size: 40px;
+		width: 200px;
+	  }
+
+	  tr {
+	    padding: 10px 0;
+	    position: relative;
+	  }
+	  tr:first-child {
+	    display: none;
+	  }
+
+	  img {
+	    height: 0px;
+	    width: 0px;
+	  }
+
+	}

@@ -5,7 +5,7 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -19,70 +19,43 @@ a:hover, a:active, a:focus, a {
 	outline: 0px none;
 }
 
-.topnav {
-  background-color: #000000;
-  overflow: hidden;
-  padding-left: 50px;
-}
-
-.topnav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #000000;
-  color: #3e3e3e;
-}
-
-.topnav a.active {
-  background-color: #000000;
-  color: white;
-}
-
 .header {
   grid-area: header;
-  height: 600px;
   position: relative;
-  width: 100%;
   margin: 0 auto;
   padding-top: 30px;
-  background-color: #8C99E9;
+  padding-bottom: 30px;
+  background-color: #1d1145;
+  overflow: hidden;
 }
 
 .grill_container {
   border-radius: 100%;
-  background: none;
+  background: #f2a1a1;
   width: 415px;
   height: 415px;
+  margin: 0 auto;
 }
 
 .grill {
-  background: url("./../assets/basic_grill_1.svg") no-repeat top left;
+  background: url("./../assets/basic_grill_1.svg") no-repeat center;
   background-size: contain;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   position: relative;
   margin: 0 auto;
-  top: 15%;
-  left: 15%;
 
 }
 
 .grill:hover {
-  background: url("./../assets/basic_grill_2.svg") no-repeat top left;
+  background: url("./../assets/basic_grill_2.svg") no-repeat center;
   background-size: contain;
 }
 
 .name {
   font-size: 50px;
-  text-align: left;
-  color: #ff009d;
-
+  text-align: center;
+  color: #e76d89;
 }
 
 .title {
@@ -95,26 +68,36 @@ a:hover, a:active, a:focus, a {
   background: none;
   border-radius: .4em;
   width: 100%;
-  padding: 0 16px 0 0;
-  text-align: left;
+  padding: 0 25px 0 0;
+  text-align: center;
   font-size: 25px;
   color: #ffffff;
 }
 
 
-#skills{
-}
 
 .skills_container {
   text-align:center;
 }
-.skill-circle {
-  margin-bottom: 48px;
+
+.skill_title {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #0db4b9;
 }
 
+.skill_description{
+	padding-bottom: 20px;
+ 	font-size: 20px;
+}
+
+.rounded-circle{
+	height: 130px;
+	width: 130px;
+}
 
 .buttons{
-	background-color: #FF43B6;
+	background-color: #0db4b9;
 	border: none;
 	color: white;
 	padding: 15px 32px;
@@ -126,6 +109,59 @@ a:hover, a:active, a:focus, a {
 	border-radius: 10px;
 }
 
-.intro_button {
-    margin-left: 40%;
+.skills_button{
+	text-align: center;
+}
+
+
+.about_me_button{
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+
+@media screen and (max-width: 1080px) {
+
+	.grill {
+	  width: 100%;
+	  height: 100%;
+	}
+
+	.grill_container {
+	  width: 415px;
+	  height: 415px;
+	}
+
+	.intro {
+	  padding-left: 25px;
+	  text-align: center;
+	  font-size: 25px;
+	  color: #ffffff;
+	}
+
+	.buttons{
+	  font-size: 40px;
+	}
+
+	.skill_title{
+		font-size: 40px;
+		color: #0db4b9;
+		padding-bottom: 20px;
+		padding-top: 10px;
+	}
+
+	.skill_description {
+		font-size: 30px;
+		padding-bottom: 30px;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.rounded-circle{
+		height: 200px;
+		width: 200px;
+	}
+
+
 }
