@@ -586,50 +586,50 @@ table tr:nth-child(2n+1) {
 	p.inktank_description {
 		margin-left: 0;
 		width: 100%;
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 	p.inktank_details {
 		margin-left: 0;
 		margin-right: 0;
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
 		width: 100%;
 	}
 
 	.key_list {
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 	.prototype_screen1_gallery_cell{
-	    background-size: 400px 800px;
-		height: 800px;
+	    background-size: 650px 1200px;
+		height: 1200px;
 	}
 
 	.prototype_screen2_gallery_cell{
-	   background-size: 400px 800px;
-		height: 800px;
+	   background-size: 600px 1200px;
+	   height: 1200px;
 	}
 
 	.prototype_screen3_gallery_cell{
-	    background-size: 400px 800px;
-		height: 800px;
+	    background-size: 650px 1200px;
+		height: 1200px;
 	}
 
 	.prototype_screen4_gallery_cell{
-	    background-size: 400px 800px;
-		height: 800px;
+	    background-size: 600px 1200px;
+		height: 1200px;
 	}
 
 	.prototype_screen5_gallery_cell{
-	    background-size: 400px 800px;
-		height: 800px;
+	    background-size: 600px 1200px;
+		height: 1200px;
 	}
 
 	.prototype_screen6_gallery_cell{
-	    background-size: 400px 800px;
-		height: 800px;
+	    background-size: 600px 1200px;
+		height: 1200px;
 	}
 
 	.inktank_button_project {
@@ -656,200 +656,200 @@ table tr:nth-child(2n+1) {
 
 
 	.persona1_gallery_cell {
-	    height: 250px;
-	    background-size: 400px 250px;
+	    height: 500px;
+	    background-size: 800px 500px;
 	}
 
 	.persona2_gallery_cell {
-		height: 250px;
-		background-size: 400px 250px;
+		height: 500px;
+   	 background-size: 800px 500px;
 	}
 
 	.persona3_gallery_cell {
-	    height: 250px;
-	    background-size: 400px 250px;
+		height: 500px;
+ 	   background-size: 800px 500px;
 	}
 
 	.journeymap1_gallery_cell{
-	    height: 250px;
-	    background-size: 400px 250px;
+		height: 500px;
+	    background-size: 800px 500px;
 	}
 
 	.journeymap2_gallery_cell{
-		height: 250px;
-  	    background-size: 400px 250px;
+		height: 500px;
+	   background-size: 800px 500px;
 	}
 
 	.ia1_gallery_cell{
-		height: 250px;
-		background-size: 400px 250px;
+		height: 500px;
+	    background-size: 800px 500px;
 	}
 
 	.ia2_gallery_cell{
-		height: 250px;
-		background-size: 400px 250px;
+		height: 500px;
+   	 background-size: 800px 500px;
 	}
 
 	.ia3_gallery_cell{
-		height: 250px;
-		background-size: 300px 250px;
+		height: 500px;
+	    background-size: 800px 500px;
 	}
 
 	.affinitymap {
-	    height: 250px;
-		width: 300px;
-	    background-size: 300px 250px;
+	    height: 750px;
+		width: 800px;
+	    background-size: 800px 750px;
 }
 
 
 	.lauren_userflow_gallery_cell{
-		height: 500px;
-		background-size: 400px 500px;
+		height: 950px;
+		background-size: 800px 950px;
 	}
 
 	.natalie_userflow_gallery_cell{
-		height: 500px;
-		background-size: 400px 500px;
+		height: 950px;
+		background-size: 800px 950px;
 	}
 
 	.danny_userflow_gallery_cell{
-		height: 550px;
-		background-size: 400px 550px;
+		height: 950px;
+		background-size: 800px 950px;
 	}
 
 	.lowfidelity1_gallery_cell{
-		height: 250px;
-		background-size: 400px 250px;
+		width: 100%;
+		background-size: 800px 450px;
 	}
 
 	.lowfidelity2_gallery_cell{
-		height: 250px;
-		background-size: 400px 250px;
+		width: 100%;
+		background-size: 800px 350px;
 	}
 
 	.lowfidelity3_gallery_cell{
-		height: 250px;
-		background-size: 400px 250px;
+		width: 100%;
+		background-size: 800px 350px;
 	}
 
 	.midfidelity1_gallery_cell{
-		height: 250px;
-		background-size: 400px 250px;
+		width: 100%;
+		background-size: 800px 450px;
 	}
 
 	.midfidelity2_gallery_cell{
-		height: 250px;
-		background-size: 400px 250px;
+		width: 100%;
+		background-size: 800px 450px;
 	}
 
 	.midfidelity3_gallery_cell{
-		height: 250px;
-		background-size: 400px 250px;
+		width: 100%;
+		background-size: 800px 450px;
 	}
 
 	.highfidelity1_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
+		width: 100%;
+		background-size: 800px 400px;
 	}
 
 	.highfidelity2_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
+		width: 100%;
+		background-size: 800px 350px;
 	}
 
 	.highfidelity3_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
+		width: 100%;
+		background-size: 800px 350px;
 	}
 
 	.iteration1_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
+		height: 400px;
+		background-size: 800px 400px;
 	}
 
 	.iteration2_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
+		height: 400px;
+		background-size: 800px 400px;
 	}
 
 	.final_ui1_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
+		height: 400px;
+		background-size: 800px 350px;
 	}
 
 	.final_ui2_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
+		height: 400px;
+		background-size: 800px 350px;
 	}
 
 	.final_ui3_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
+		height: 400px;
+		background-size: 800px 350px;
 	}
 
 	.final_ui4_gallery_cell{
-		height: 150px;
-		background-size: 400px 150px;
+		height: 400px;
+		background-size: 800px 300px;
 	}
 
 	.final_ui5_gallery_cell{
-		height: 150px;
-		background-size: 400px 150px;
+		height: 400px;
+		background-size: 800px 300px;
 	}
 
 	.color_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.typography_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.bars_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.button_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.alert_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.pickers_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.snack_bar_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.grid_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.icons_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.imagery_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	.tone_gallery_cell{
-		height: 300px;
-		background-size: 350px 300px;
+		height: 700px;
+		background-size: 850px 700px;
 	}
 
 	table, tr, td {
@@ -879,22 +879,22 @@ table tr:nth-child(2n+1) {
 	  }
 	  td:nth-child(2):before {
 	    content: 'Issue:';
-		font-size: 40px;
+		font-size: 35px;
 		width: 200px;
 	  }
 	  td:nth-child(3):before {
 	    content: 'Severity:';
-		font-size: 40px;
+		font-size: 35px;
 		width: 200px;
 	  }
 	  td:nth-child(4):before {
 	    content: 'Change:';
-		font-size: 40px;
+		font-size: 35px;
 		width: 200px;
 	  }
 	  td:nth-child(5):before {
 	    content: 'Evidence:';
-		font-size: 40px;
+		font-size: 35px;
 		width: 200px;
 	  }
 
