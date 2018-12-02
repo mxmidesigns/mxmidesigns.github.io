@@ -80,7 +80,7 @@
 
 	.topnav{
 		padding-left: 0px;
-		height: 100px;
+		/* height: 100px; */
 	}
 
 	.items_container {
@@ -93,18 +93,16 @@
 
 	.topnav button.hamburger {
 		display: block;
-		height: 100px;
-		width: 100px;
 	}
 
 	.topnav a {
 		display: none;
-		font-size: 45px;
-		padding: 18px 20px;
+		/* font-size: 45px; */
+		/* padding: 18px 20px; */
 	}
 
 	.topnav button.hamburger i {
-		font-size: 60px;
+		/* font-size: 60px; */
 		padding: 0;
 	}
 
