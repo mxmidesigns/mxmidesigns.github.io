@@ -1,6 +1,6 @@
 .about_me_header{
 	width: 100%;
-	height: 1050px;
+	height: 100vh;
 	background: url("./../assets/mountain_header.svg") no-repeat center;
 	background-repeat: no-repeat;
 	background-size: cover;
