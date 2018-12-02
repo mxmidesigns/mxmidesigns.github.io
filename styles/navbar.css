@@ -81,7 +81,6 @@
 	.topnav{
 		padding-left: 0px;
 		height: 100px;
-
 	}
 
 	.items_container {
@@ -95,6 +94,7 @@
 	.topnav button.hamburger {
 		display: block;
 		height: 100px;
+		width: 100px;
 	}
 
 	.topnav a {
