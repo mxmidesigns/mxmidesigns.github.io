@@ -12,10 +12,16 @@
 	<link rel="stylesheet" type="text/css" href="styles/about_me.css">
 	<link rel="stylesheet" type="text/css" href="styles/contact.css">
 	<link rel="stylesheet" type="text/css" href="styles/inktank.css">
-	<link rel="stylesheet" type="text/css" href="styles/stars.css">
+	<link rel="stylesheet" type="text/css" href="styles/gocards.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script src="./javascript/navbar.js"></script>
+
+	<!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
+	0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+	for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".split(" ");e.get_group=function(){function a(c){b[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));e.push([d,call2])}}for(var b={},d=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<f.length;c++)a(f[c]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
+	MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+	mixpanel.init("e24080f7359eedd12398809feba82b78");</script><!-- end Mixpanel -->
 
 </head>
 
@@ -26,15 +32,13 @@
 		<a class="active" href="index.html"><i class="fa fa-home"></i> MAI NGUYEN</a>
 
 		<div class="dropdown">
-			<button class="dropbtn" onclick="expandProjects">Projects</button>
+			<button class="dropbtn" onclick="expandProjects"><i class="fa fa-file"></i> Projects</button>
 			<div class="dropdown-content">
-				<a href="inktank.html"><i class="fa fa-syringe"></i> Ink Tank</a>
-				<a href="#project"><i class="fa fa-flag-checkered"></i> Go Kards</a>
-				<a href="#project"><i class="fa fa-sun"></i> Weather</a>
+				<a href="inktank.html">Ink Tank</a>
+				<a href="gocards.html">GoCards</a>
 			</div>
 		</div>
 
-		<a href="#resume"><i class="fa fa-file"></i> Resume </a>
 		<a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
 		<a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
 
@@ -63,39 +67,39 @@
 		<h1 class="title"> Skills</h1>
 		<br>
 		<div class="skill-circle col-33">
-			<img class="rounded-circle" src="./assets/ux_research.svg" alt="Generic placeholder image" width="140" height="140">
+			<img class="rounded-circle" src="./assets/ux_research.svg" alt="UX Research" width="140" height="140">
 			<h2 class="skill_title">UX Research</h2>
-			<p class="skill_description">I love to understand users behavior.</p>
+			<p class="skill_description">Understanding users behavior.</p>
 		</div>
 
 		<div class="skill-circle col-33">
-			<img class="rounded-circle" src="./assets/prototyping.svg" alt="Generic placeholder image" width="140" height="140">
+			<img class="rounded-circle" src="./assets/prototyping.svg" alt="Prototypes" width="140" height="140">
 			<h2 class="skill_title">Prototypes</h2>
-			<p class="skill_description">I created proof-of-concept models.</p>
+			<p class="skill_description">Creating proof-of-concept models.</p>
 		</div>
 
 		<div class="skill-circle col-33">
-			<img class="rounded-circle" src="./assets/coding.svg" alt="Generic placeholder image" width="140" height="140">
+			<img class="rounded-circle" src="./assets/coding.svg" alt="Coding" width="140" height="140">
 			<h2 class="skill_title">Coding</h2>
-			<p class="skill_description">I can create with HTML & CSS.</p>
+			<p class="skill_description"> Using HTML & CSS</p>
 		</div>
 
 		<div class="skill-circle col-33">
-			<img class="rounded-circle" src="./assets/user_stories.svg" alt="Generic placeholder image" width="140" height="140">
+			<img class="rounded-circle" src="./assets/user_stories.svg" alt="User Stories" width="140" height="140">
 			<h2 class="skill_title">User Stories</h2>
 			<p class="skill_description">Telling the user's story</p>
 		</div>
 
 		<div class="skill-circle col-33">
-			<img class="rounded-circle" src="./assets/wireframe.svg" alt="Generic placeholder image" width="140" height="140">
+			<img class="rounded-circle" src="./assets/wireframe.svg" alt="Wireframing" width="140" height="140">
 			<h2 class="skill_title">Wireframing</h2>
-			<p class="skill_description">I've designed web & mobile.</p>
+			<p class="skill_description">Designing for web & mobile.</p>
 		</div>
 
 		<div class="skill-circle col-33">
-			<img class="rounded-circle" src="./assets/visual.svg" alt="Generic placeholder image" width="140" height="140">
+			<img class="rounded-circle" src="./assets/visual.svg" alt="Visual Design" width="140" height="140">
 			<h2 class="skill_title">Visual Design</h2>
-			<p class="skill_description">blah</p>
+			<p class="skill_description">Improving UX through illustrations, typography, space, and color.</p>
 		</div>
 	</div>
 
@@ -107,13 +111,13 @@
 
 
 
-	<div class="projects">
+	<div class="projects col-100">
 		<div class="project-one col-50">
-			<img class="project_one" src="" alt="Generic placeholder image" />
+			<img class="project_one" src="./assets/inktank_wallpaper.jpg" alt="Ink Tank" />
 		</div>
 		<div class="project-one col-50">
 			<h2 class="project-heading">Ink Tank (June 2018)</h2>
-			<p class="description"> Ink Tank was designed to explore inspiration for tattoo designs according to preferences such as artist and style and to find the correct artist to execute the design.</p>
+			<p class="description"> Ink Tank was designed to look for tattoo inspiration according to preferences and to match with the perfect artist to execute the design.</p>
 			<div class="project_buttons">
 				<a href="inktank.html" class="buttons button_project">View Project Details</a>
 			</div>
@@ -122,23 +126,24 @@
 	</div>
 
 	<hr class="project-divider">
-	<div class="projects">
+	<div class="projects col-100">
 		<div class="project-two col-50">
-			<img class="project_two" src="https://ksassets.timeincuk.net/wp/uploads/sites/54/2018/07/3407587-screenshot_18-06-28_11-07-16-000-920x518.jpg" alt="Generic placeholder image">
+			<img class="project_two" src="./assets/go_kards_wallpaper.jpg" alt="Gocards">
 		</div>
 		<div class="project-two col-50">
-			<h2 class="project-heading">Go Kards (May 2018)</h2>
-			<p class="description"> I redesigned the experience of memorizing and understanding new concepts, techniques, and terms by exploring how people learn vocabulary and designed a mobile app to address their goals and problems.</p>
+			<h2 class="project-heading">GoCards (May 2018)</h2>
+			<p class="description"> Gogcard was designed to enhance the learning experience of memorizing and understanding new concepts, techniques, and terms. </p>
 			<div class="project_buttons">
-				<a href="#" class="buttons button_project">View Project Details</a>
+				<a href="gocards.html" class="buttons button_project">View Project Details</a>
 			</div>
 		</div>
 	</div>
 
+<!--TO DO LATER
 	<hr class="project-divider">
-	<div class="projects">
+	<div class="projects col-100">
 		<div class="project-three col-50">
-			<img class="project_three" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCPCm-iqK1umpHOs-mOW9Rx9EJvJXN5Q4NyqlF9Vd2lvySoHk7yg" alt="Generic placeholder image">
+			<img class="project_three" src="" alt="Generic placeholder image">
 		</div>
 		<div class="project-three col-50">
 			<h2 class="project-heading">Weather (November 2018)</h2>
@@ -149,6 +154,28 @@
 			</div>
 		</div>
 	</div>
+-->
+
+	<script>
+		function guidGenerator() {
+			var S4 = function() {
+			   return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+			};
+			return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+		}
+		var mixpanelID = window.localStorage.getItem("mixpanel_id");
+		if (!mixpanelID) {
+			mixpanelID = guidGenerator();
+			window.localStorage.setItem('mixpanel_id', mixpanelID);
+		}
+		console.log("mixpanelID: ", mixpanelID);
+		mixpanel.identify(mixpanelID);
+		mixpanel.track("Home Page Viewed");
+
+		mixpanel.people.set({
+		    "$last_login": new Date(),
+		});
+	</script>
 
 </body>
 
