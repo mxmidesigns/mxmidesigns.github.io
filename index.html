@@ -168,13 +168,11 @@
 			mixpanelID = guidGenerator();
 			window.localStorage.setItem('mixpanel_id', mixpanelID);
 		}
-		console.log("mixpanelID: ", mixpanelID);
 		mixpanel.identify(mixpanelID);
-		mixpanel.track("Home Page Viewed");
-
 		mixpanel.people.set({
 		    "$last_login": new Date(),
 		});
+		mixpanel.track("Home Page Viewed");
 	</script>
 
 </body>
