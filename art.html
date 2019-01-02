@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -7,7 +8,7 @@
 	<meta name="copyright" content="Maihan portfolio"/>
 	<meta name="description" content="Maihan Nguyen UX Portfolio "/>
 	<meta name="keywords" content="Mai, UX Portfolio, UX Designer" />
-	<meta name="robots" content="index, nofollow"/>
+	<meta name="robots" content="index, follow"/>
 
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/navbar.css">
@@ -17,9 +18,11 @@
 	<link rel="stylesheet" type="text/css" href="styles/contact.css">
 	<link rel="stylesheet" type="text/css" href="styles/inktank.css">
 	<link rel="stylesheet" type="text/css" href="styles/gocards.css">
+	<link rel="stylesheet" type="text/css" href="styles/art.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script src="./javascript/navbar.js"></script>
+	<script src="./javascript/imageViewer.js"></script>
 
 	<!-- start Mixpanel --><script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
 	0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
@@ -49,35 +52,44 @@
 
 	</div>
 
-	<div class="contact_header col-100">
-		<div class="col-50">
-			<div class="cellphone_container">
-				<div class="cellphone"></div>
-			</div>
+		<div class="header col-100">
+				<p class="art_intro">ART</p>
+				<p class="art_description">Paintings, sketches, and vector drawings.</p>
 		</div>
-		<div class="col-50 ">
-			<div class="lets_get_in_touch">
-				<h1 class="contact_heading">Let's get in touch!</h1>
-				<br>
-				<p class="contact_description">Feel free to send me an email <br><br><a href="mailto:maihannguyen14@gmail.com" class="contact_button">maihannguyen94@gmail.com</a></p>
-				<div class="contact_container">
-					<p class="contact_description_icon">You can connect with me everywhere.</p><br>
-					<div class="contact_icons mail">
-						<a href="mailto:maihannguyen14@gmail.com"></a>
-					</div>
-					<div class="contact_icons phone">
-						<a href="tel:5103866957"></a>
-					</div>
-					<div class="contact_icons linkedin">
-						<a href="https://www.linkedin.com/in/mai-nguyen-6a3745b8/"></a>
-					</div>
-					<div class="contact_icons dribble">
-						<a href="https://dribbble.com/mai_nguyen"></a>
-					</div>
 
-				</div>
+		<div id="art" class="art_container col-100">
+			<div class="art col-25">
+				<div class="art_drawing1" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing2" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing3" onclick="onImageClick(this)"> </div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing4" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing5" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing6" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing7" onclick="onImageClick(this)"></div>
+			</div>
+			<div class="art col-25">
+				<div class="art_drawing8" onclick="onImageClick(this)"></div>
 			</div>
 		</div>
+
+
+
+
+
+
+
 
 		<script>
 			function guidGenerator() {
@@ -95,9 +107,9 @@
 			mixpanel.people.set({
 			    "$last_login": new Date(),
 			});
-			mixpanel.track("Contacts Page Viewed");
+			mixpanel.track("Art Viewed");
 		</script>
 
-</body>
+	</body>
 
-</html>
+	</html>
