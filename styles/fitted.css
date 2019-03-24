@@ -1,0 +1,910 @@
+.fitted_cover {
+    width: 100%;
+    height: 600px;
+    background: url("./../assets/gocard_header.jpg") no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fitted_project_title {
+	text-align: center;
+	font-size: 90px;
+	padding-top: 200px;
+	color: white;
+}
+
+.fitted_project_subtitle{
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	padding-top: 20px;
+	color: white;
+}
+
+.fitted_button_project_container {
+    text-align: center;
+	overflow: hidden;
+}
+
+.fitted_button_project {
+    margin-top: 25px;
+	margin-bottom: 25px;
+    background-color: #FF8C00;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.fitted_overview {
+	padding: 0 32px;
+	overflow: hidden;
+}
+
+.fitted_discovery{
+	overflow: hidden;
+}
+
+.fitted_concepting{
+	overflow: hidden;
+}
+
+.fitted_prototyping{
+	overflow: hidden;
+}
+
+.fitted_documentation{
+	overflow: hidden;
+}
+
+.fitted_categories {
+    color: #FF8C00;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.fitted_description {
+    line-height: 2;
+}
+
+.fitted_criteria {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.fitted_intro {
+    text-align: center;
+    color: #FF8C00;
+    padding-bottom: 10px;
+}
+
+.fitted_title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.fitted_details {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+.key_list {
+	padding-left: 32px;
+}
+
+.list_items {
+    margin-bottom: 16px;
+	line-height: 2;
+}
+
+.issue_items{
+	padding-left: 32px;
+	margin-bottom: 16px;
+	color: #FF8C00;
+	font-weight: bold;
+}
+
+.main-carousel {
+    padding-top: 50px;
+    padding-bottom: 50px;
+	overflow: hidden;
+}
+
+.gallery {
+    background: #EEE;
+}
+
+.fitted_prototype_screen1_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype1.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.fitted_prototype_screen2_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype2.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.fitted_prototype_screen3_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype3.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.fitted_prototype_screen4_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype4.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.fitted_prototype_screen5_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype5.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.fitted_prototype_screen6_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype6.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.fitted_prototype_screen7_gallery_cell{
+	width: 100%;
+    height: 600px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/gocard_prototype7.1.png") no-repeat center;
+    background-size: 300px 600px;
+}
+
+.gallery_cell {
+    width: 66%;
+    height: 500px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+}
+
+.fitted_persona {
+    width: 100%;
+    height: 500px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/fitted_persona.jpg") no-repeat center;
+    background-size: 850px 500px;
+}
+
+.rebecca_userflow1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_userflow1.jpg") no-repeat center;
+	background-size: 500px 500px;
+}
+
+.fitted_sketch1_gallery_cell{
+	width: 100%;
+	height: 380px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_sketch_1.jpg") no-repeat center;
+	background-size: 600px 380px;
+}
+
+.fitted_sketch2_gallery_cell{
+	width: 100%;
+	height: 380px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_sketch_2.jpg") no-repeat center;
+	background-size: 600px 380px;
+}
+
+.fitted_sketch3_gallery_cell{
+	width: 100%;
+	height: 380px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_sketch_3.jpg") no-repeat center;
+    background-size: 600px 380px;
+}
+
+.fitted_sketch4_gallery_cell{
+	width: 100%;
+	height: 380px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_sketch_4.jpg") no-repeat center;
+	background-size: 600px 380px;
+}
+
+.fitted_sketch5_gallery_cell{
+	width: 100%;
+	height: 380px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_sketch_5.jpg") no-repeat center;
+	background-size: 600px 380px;
+}
+
+.fitted_sketch6_gallery_cell{
+	width: 100%;
+	height: 380px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_sketch_6.jpg") no-repeat center;
+	background-size: 600px 380px;
+}
+
+
+.fitted_lowfidelity1_gallery_cell{
+	width: 100%;
+	height: 400px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_lowfidelity_1.jpg") no-repeat center;
+	background-size: 700px 400px;
+}
+
+.fitted_lowfidelity2_gallery_cell{
+	width: 100%;
+	height: 400px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_lowfidelity_2.jpg") no-repeat center;
+	background-size: 700px 400px;
+}
+
+.fitted_lowfidelity3_gallery_cell{
+	width: 100%;
+	height: 400px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_lowfidelity_3.jpg") no-repeat center;
+    background-size: 700px 400px;
+}
+
+.fitted_lowfidelity4_gallery_cell{
+	width: 100%;
+	height: 400px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_lowfidelity_4.jpg") no-repeat center;
+	background-size: 700px 400px;
+}
+
+.fitted_lowfidelity5_gallery_cell{
+	width: 100%;
+	height: 400px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_lowfidelity_5.jpg") no-repeat center;
+	background-size: 700px 400px;
+}
+
+.fitted_lowfidelity6_gallery_cell{
+	width: 100%;
+	height: 400px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_lowfidelity_6.jpg") no-repeat center;
+	background-size: 700px 400px;
+}
+
+
+.fitted_highfidelity1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard__highfidelity_1.jpg") no-repeat center;
+	background-size: 900px 500px;
+}
+
+.fitted_highfidelity2_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_2.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.fitted_highfidelity3_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_3.1.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.fitted_highfidelity4_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_4.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.fitted_highfidelity5_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_5.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.fitted_highfidelity6_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_highfidelity_6.jpg") no-repeat center;
+	background-size: 900px 550px;
+}
+
+.fitted_iteration1_gallery_cell{
+	width: 100%;
+	height: 450px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_iteration_1.jpg") no-repeat center;
+	background-size: 900px 450px;
+}
+
+.fitted_iteration2_gallery_cell{
+	width: 100%;
+	height: 450px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_iteration_2.jpg") no-repeat center;
+	background-size: 900px 450px;
+}
+
+.fitted_final_ui1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui1.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.fitted_final_ui2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui2.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.fitted_final_ui3_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui3.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.fitted_final_ui4_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui4.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.fitted_final_ui5_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui5.jpg") no-repeat center;
+	background-size: 1100px 500px;
+}
+
+.fitted_final_ui6_gallery_cell{
+	width: 100%;
+	height: 600px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocard_finalui6.1.jpg") no-repeat center;
+	background-size: 850px 600px;
+}
+
+
+/* cell number */
+.gallery_cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.fitted_divider {
+    height: 2px;
+    width: 80%;
+    display: block;
+    background-color: #f2f2f2;
+	padding: 0 16px;
+	margin: 8px auto;
+}
+
+.table_header{
+	background-color: #FF8C00;
+	color: white;
+	font-size: 1.5em;
+	padding: 1rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+}
+
+table th{
+	background-color: #ffccb9;
+	height: 50px;
+}
+
+table td{
+	text-align: left;
+    vertical-align: middle;
+	padding-bottom: 25px;
+	line-height: 1.5;
+}
+
+table td, table th {
+  padding: 10px;
+}
+
+.table_icons {
+  height: 40px;
+  width: 40px;
+  background-position: center;
+}
+
+
+table tr:nth-child(2n) {
+  background-color: white;
+}
+table tr:nth-child(2n+1) {
+  background-color: #ffccb9;
+}
+
+.table-users {
+  border: 1px solid #ffccb9;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  max-width: calc(100% - 2em);
+  margin: 1em auto;
+  overflow: hidden;
+  width: 800px;
+}
+
+.fitted_prototype_screen1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.fitted_prototype_screen2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_prototype_screen3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_prototype_screen4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_prototype_screen5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_prototype_screen6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_prototype_screen7_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.fitted_persona:hover{
+	opacity: 0.5;
+}
+
+.rebecca_userflow1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.fitted_sketch1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_sketch2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_sketch3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_sketch4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_sketch5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_sketch6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.fitted_lowfidelity1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_lowfidelity2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_lowfidelity3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_lowfidelity4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_lowfidelity5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_lowfidelity6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_highfidelity1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_highfidelity2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_highfidelity3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_highfidelity4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_highfidelity5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_highfidelity6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_iteration1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_iteration2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_final_ui1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_final_ui2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_final_ui3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_final_ui4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_final_ui5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_final_ui6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 1080px) {
+
+	p.fitted_description {
+		margin-left: 0;
+		width: 100%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	p.fitted_details {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 100%;
+	}
+
+	.key_list {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.prototype_screen1_gallery_cell{
+	    background-size: 350px 700px;
+		height: 700px;
+	}
+
+	.prototype_screen2_gallery_cell{
+		background-size: 350px 700px;
+	  	height: 700px;
+	}
+
+	.prototype_screen3_gallery_cell{
+		background-size: 350px 700px;
+ 	    height: 700px;
+	}
+
+	.prototype_screen4_gallery_cell{
+		background-size: 350px 700px;
+	  	height: 700px;
+	}
+
+	.prototype_screen5_gallery_cell{
+		background-size: 350px 700px;
+ 	    height: 700px;
+	}
+
+	.prototype_screen6_gallery_cell{
+		background-size: 350px 700px;
+   	    height: 700px;
+	}
+
+	.fitted_prototype_screen7_gallery_cell{
+		background-size: 300px 600px;
+		height: 600px;
+	}
+
+	.fitted_categories {
+	   text-align: center;
+	}
+
+	.fitted_cover {
+	    height: 600px;
+	}
+
+	.fitted_project_title {
+		font-size: 70px;
+		padding-top: 100px;
+	}
+
+	.fitted_project_subtitle{
+		font-size: 25px;
+        padding: 20px 5px 5px;
+	}
+
+	.fitted_persona  {
+	    height: 250px;
+	    background-size: 350px 250px;
+	}
+
+	.rebecca_userflow1_gallery_cell{
+		height: 350px;
+		background-size: 350px 350px;
+	}
+
+	.fitted_sketch1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_sketch2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_sketch3_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_sketch4_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_sketch5_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_sketch6_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_lowfidelity1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_lowfidelity2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_lowfidelity3_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_lowfidelity4_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_lowfidelity5_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_lowfidelity6_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_highfidelity1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_highfidelity2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_highfidelity3_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_highfidelity4_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_highfidelity5_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_highfidelity6_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+
+	.fitted_iteration1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_iteration2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_final_ui1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_final_ui2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_final_ui3_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_final_ui4_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.fitted_final_ui5_gallery_cell{
+		height: 200px;
+		background-size: 400px 200px;
+	}
+
+	.fitted_final_ui6_gallery_cell{
+		height: 200px;
+		background-size: 250px 200px;
+	}
+
+	table, tr, td {
+	    display: block;
+	  }
+
+	  td:first-child {
+	    position: absolute;
+	    top: 50%;
+	    -webkit-transform: translateY(-50%);
+	            transform: translateY(-50%);
+	    width: 100px;
+	  }
+	  td:not(:first-child) {
+	    clear: both;
+	    margin-left: 15px;
+	    padding: 4px 20px 4px 100px;
+	    position: relative;
+	    text-align: left;
+	  }
+	  td:not(:first-child):before {
+	    color: #0074D9;
+	    content: '';
+	    display: block;
+	    left: 0;
+	    position: absolute;
+	  }
+	  td:nth-child(2):before {
+	    content: 'Issue:';
+		width: 200px;
+	  }
+	  td:nth-child(3):before {
+	    content: 'Severity:';
+		width: 200px;
+	  }
+	  td:nth-child(4):before {
+	    content: 'Change:';
+		width: 200px;
+	  }
+	  td:nth-child(5):before {
+	    content: 'Evidence:';
+		width: 200px;
+	  }
+
+	  tr {
+	    padding: 10px 0;
+	    position: relative;
+	  }
+	  tr:first-child {
+	    display: none;
+	  }
+
+	  img {
+	    height: 0px;
+	    width: 0px;
+	  }
+
+	  .table_header{
+		  	font-size: 15px;
+	  }
+
+	}

@@ -127,11 +127,19 @@
         height: 100%;
     }
 
+	.project_three {
+		height: 100%;
+	}
+
     .project-one {
         padding-bottom: 20px;
     }
 
 	.project-two {
+        padding-bottom: 20px;
+    }
+
+	.project-three {
         padding-bottom: 20px;
     }
 }
