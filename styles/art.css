@@ -227,6 +227,60 @@
 	opacity: 0.5;
 }
 
+.art_drawing17{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/ignlogos.jpg") no-repeat center;
+    background-size: cover;
+	margin: 10px;
+}
+
+.art_drawing17:hover{
+	opacity: 0.5;
+}
+
+.art_drawing18{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/jenjon1.jpg") no-repeat center;
+    background-size: cover;
+	margin: 10px 20px;
+}
+
+.art_drawing18:hover{
+	opacity: 0.5;
+}
+
+.art_drawing19{
+	width: 100%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/jenjon2.png") no-repeat center;
+    background-size: cover;
+	margin: 10px 30px;
+}
+
+.art_drawing19:hover{
+	opacity: 0.5;
+}
+
+.art_drawing20{
+	width: 85%;
+    height: 310px;
+    counter-increment: gallery-cell;
+    background: url("./../assets/catchonk.svg") no-repeat center;
+    background-size: cover;
+	margin: 10px 40px;
+}
+
+.art_drawing19:hover{
+	opacity: 0.5;
+}
+
+
+
 
 @media screen and (max-width: 1080px) {
 	.art_drawing1{
@@ -335,6 +389,34 @@
 	}
 
 	.art_drawing16{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing17{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing18{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing19{
+		width: 95%;
+		height: 310px;
+		margin: 10px;
+
+	}
+
+	.art_drawing20{
 		width: 95%;
 		height: 310px;
 		margin: 10px;

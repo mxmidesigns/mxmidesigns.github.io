@@ -396,6 +396,96 @@
 }
 
 
+.fitted_typography1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography1.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography2.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+
+.fitted_typography3_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography3.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography4_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography4.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography5_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography5.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography6_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography6.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography7_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography7.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography8_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography8.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography9_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography9.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography10_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography10.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+.fitted_typography11_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_typography11.jpg") no-repeat center;
+	background-size: 650px 500px;
+}
+
+
 .fitted_highfidelity1_gallery_cell{
 	width: 100%;
 	height: 500px;
@@ -713,6 +803,51 @@ table tr:nth-child(2n+1) {
 	opacity: 0.5;
 }
 
+.fitted_typography1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typoraphy2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography7_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography8_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography9_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography10_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_typography11_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
 .fitted_highfidelity1_gallery_cell:hover{
 	opacity: 0.5;
 }
@@ -970,6 +1105,61 @@ table tr:nth-child(2n+1) {
 	.fitted_moodboard_gallery_cell{
 		height: 400px;
 		background-size: 400px 400px;
+	}
+
+	.fitted_typography1_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography2_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography3_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography4_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography5_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography6_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography7_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography8_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography9_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography10_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_typography11_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
 	}
 
 	.fitted_highfidelity1_gallery_cell{
