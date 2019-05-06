@@ -1,7 +1,7 @@
 .fitted_cover {
     width: 100%;
     height: 600px;
-    background: url("./../assets/gocard_header.jpg") no-repeat;
+    background: url("./../assets/fitted_header1.png") no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,7 +10,8 @@
 	text-align: center;
 	font-size: 90px;
 	padding-top: 200px;
-	color: white;
+	color: #ffffff;
+	text-shadow: 3px 3px #000000;
 }
 
 .fitted_project_subtitle{
@@ -18,7 +19,8 @@
 	font-size: 40px;
 	font-style: italic;
 	padding-top: 20px;
-	color: white;
+	color: #FF8C00;
+	text-shadow: 2px 2px #000000;
 }
 
 .fitted_button_project_container {
@@ -129,60 +131,14 @@
     background: #EEE;
 }
 
-.fitted_prototype_screen1_gallery_cell{
-	width: 100%;
-    height: 600px;
-    counter-increment: gallery-cell;
-    background: url("./../assets/gocard_prototype1.png") no-repeat center;
-    background-size: 300px 600px;
+.fitted_animation{
+	weight: 175px;
+	height: 612px;
 }
 
-.fitted_prototype_screen2_gallery_cell{
-	width: 100%;
-    height: 600px;
-    counter-increment: gallery-cell;
-    background: url("./../assets/gocard_prototype2.png") no-repeat center;
-    background-size: 300px 600px;
-}
-
-.fitted_prototype_screen3_gallery_cell{
-	width: 100%;
-    height: 600px;
-    counter-increment: gallery-cell;
-    background: url("./../assets/gocard_prototype3.png") no-repeat center;
-    background-size: 300px 600px;
-}
-
-.fitted_prototype_screen4_gallery_cell{
-	width: 100%;
-    height: 600px;
-    counter-increment: gallery-cell;
-    background: url("./../assets/gocard_prototype4.png") no-repeat center;
-    background-size: 300px 600px;
-}
-
-.fitted_prototype_screen5_gallery_cell{
-	width: 100%;
-    height: 600px;
-    counter-increment: gallery-cell;
-    background: url("./../assets/gocard_prototype5.png") no-repeat center;
-    background-size: 300px 600px;
-}
-
-.fitted_prototype_screen6_gallery_cell{
-	width: 100%;
-    height: 600px;
-    counter-increment: gallery-cell;
-    background: url("./../assets/gocard_prototype6.png") no-repeat center;
-    background-size: 300px 600px;
-}
-
-.fitted_prototype_screen7_gallery_cell{
-	width: 100%;
-    height: 600px;
-    counter-increment: gallery-cell;
-    background: url("./../assets/gocard_prototype7.1.png") no-repeat center;
-    background-size: 300px 600px;
+.fitted_container{
+	text-align: center;
+	padding-top: 25px;
 }
 
 .gallery_cell {
@@ -391,7 +347,7 @@
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/fitted_moodboard1.svg") no-repeat center;
+	background: url("./../assets/fitted_moodboard2.svg") no-repeat center;
 	background-size: 650px 500px;
 }
 
@@ -485,118 +441,267 @@
 	background-size: 650px 500px;
 }
 
-
-.fitted_highfidelity1_gallery_cell{
+.fitted_color1_gallery_cell{
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard__highfidelity_1.jpg") no-repeat center;
-	background-size: 900px 500px;
+	background: url("./../assets/fitted_color1.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color2.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color3_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color3.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color4_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color4.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color5_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color5.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color6_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color6.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color7_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color7.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color8_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color8.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color9_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color9.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_color10_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_color10.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+
+.fitted_styleguide1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_styleguide1.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_styleguide2_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_styleguide2.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_styleguide3_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_styleguide3.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_styleguide4_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_styleguide4.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_styleguide5_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_styleguide5.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_styleguide6_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_styleguide6.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+.fitted_styleguide7_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_styleguide7.jpg") no-repeat center;
+	background-size: 700px 550px;
+}
+
+
+
+
+.fitted_homescreen_breakpoints_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_homescreen_breakpoints.jpg") no-repeat center;
+	background-size: 850px 500px;
+}
+
+.fitted_exercises_breakpoints_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_exercises_breakpoints.jpg") no-repeat center;
+	background-size: 850px 500px;
+}
+
+.fitted_calendar_breakpoints_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_calendar_breakpoints.jpg") no-repeat center;
+	background-size: 850px 500px;
+}
+
+
+.fitted_highfidelity1_gallery_cell{
+	width: 100%;
+	height: 700px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/fitted_highfidelity1.jpg") no-repeat center;
+	background-size: 900px 700px;
 }
 
 .fitted_highfidelity2_gallery_cell{
 	width: 100%;
-	height: 550px;
+	height: 700px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_highfidelity_2.jpg") no-repeat center;
-	background-size: 900px 550px;
+	background: url("./../assets/fitted_highfidelity2.jpg") no-repeat center;
+	background-size: 900px 700px;
 }
 
 .fitted_highfidelity3_gallery_cell{
 	width: 100%;
-	height: 550px;
+	height: 700px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_highfidelity_3.1.jpg") no-repeat center;
-	background-size: 900px 550px;
+	background: url("./../assets/fitted_highfidelity3.jpg") no-repeat center;
+	background-size: 900px 700px;
 }
 
 .fitted_highfidelity4_gallery_cell{
 	width: 100%;
-	height: 550px;
+	height: 700px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_highfidelity_4.jpg") no-repeat center;
-	background-size: 900px 550px;
+	background: url("./../assets/fitted_highfidelity4.jpg") no-repeat center;
+	background-size: 900px 700px;
 }
 
 .fitted_highfidelity5_gallery_cell{
 	width: 100%;
-	height: 550px;
+	height: 700px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_highfidelity_5.jpg") no-repeat center;
-	background-size: 900px 550px;
+	background: url("./../assets/fitted_highfidelity5.jpg") no-repeat center;
+	background-size: 900px 700px;
 }
 
 .fitted_highfidelity6_gallery_cell{
 	width: 100%;
-	height: 550px;
+	height: 700px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_highfidelity_6.jpg") no-repeat center;
-	background-size: 900px 550px;
+	background: url("./../assets/fitted_highfidelity6.jpg") no-repeat center;
+	background-size: 900px 700px;
 }
 
-.fitted_iteration1_gallery_cell{
+.fitted_highfidelity7_gallery_cell{
 	width: 100%;
-	height: 450px;
+	height: 700px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_iteration_1.jpg") no-repeat center;
-	background-size: 900px 450px;
+	background: url("./../assets/fitted_highfidelity7.jpg") no-repeat center;
+	background-size: 900px 700px;
 }
 
-.fitted_iteration2_gallery_cell{
+.fitted_highfidelity8_gallery_cell{
 	width: 100%;
-	height: 450px;
+	height: 700px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_iteration_2.jpg") no-repeat center;
-	background-size: 900px 450px;
+	background: url("./../assets/fitted_highfidelity8.jpg") no-repeat center;
+	background-size: 900px 700px;
 }
 
-.fitted_final_ui1_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_finalui1.jpg") no-repeat center;
-	background-size: 1100px 500px;
-}
-
-.fitted_final_ui2_gallery_cell{
+.fitted_mockup1_gallery_cell{
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_finalui2.jpg") no-repeat center;
-	background-size: 1100px 500px;
+	background: url("./../assets/fitted_mockup1.png") no-repeat center;
+	background-size: 800px 500px;
 }
 
-.fitted_final_ui3_gallery_cell{
+.fitted_mockup2_gallery_cell{
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_finalui3.jpg") no-repeat center;
-	background-size: 1100px 500px;
+	background: url("./../assets/fitted_mockup2.png") no-repeat center;
+	background-size: 750px 500px;
 }
 
-.fitted_final_ui4_gallery_cell{
+.fitted_mockup3_gallery_cell{
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_finalui4.jpg") no-repeat center;
-	background-size: 1100px 500px;
+	background: url("./../assets/fitted_mockup3.png") no-repeat center;
+	background-size: 800px 500px;
 }
 
-.fitted_final_ui5_gallery_cell{
+.fitted_mockup4_gallery_cell{
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_finalui5.jpg") no-repeat center;
-	background-size: 1100px 500px;
+	background: url("./../assets/fitted_mockup4.png") no-repeat center;
+	background-size: 800px 400px;
 }
 
-.fitted_final_ui6_gallery_cell{
-	width: 100%;
-	height: 600px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_finalui6.1.jpg") no-repeat center;
-	background-size: 850px 600px;
-}
 
 
 /* cell number */
@@ -847,6 +952,91 @@ table tr:nth-child(2n+1) {
 	opacity: 0.5;
 }
 
+.fitted_color1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_color2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_color3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_color4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_color5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_color6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_color7_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_color8_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.fitted_color9_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_color10_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+
+.fitted_styleguide1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_styleguide2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_styleguide3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_styleguide4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_styleguide5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_styleguide6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_styleguide7_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.fitted_homescreen_breakpoints_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+
+.fitted_exercises_breakpoints_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.fitted_calendar_breakpoints_gallery_cell:hover{
+	opacity: 0.5;
+}
+
 
 .fitted_highfidelity1_gallery_cell:hover{
 	opacity: 0.5;
@@ -872,37 +1062,23 @@ table tr:nth-child(2n+1) {
 	opacity: 0.5;
 }
 
-.fitted_iteration1_gallery_cell:hover{
+
+.fitted_mockup1_gallery_cell:hover{
 	opacity: 0.5;
 }
 
-.fitted_iteration2_gallery_cell:hover{
+.fitted_mockup2_gallery_cell:hover{
 	opacity: 0.5;
 }
 
-.fitted_final_ui1_gallery_cell:hover{
+.fitted_mockup3_gallery_cell:hover{
 	opacity: 0.5;
 }
 
-.fitted_final_ui2_gallery_cell:hover{
+.fitted_mockup4_gallery_cell:hover{
 	opacity: 0.5;
 }
 
-.fitted_final_ui3_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-.fitted_final_ui4_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-.fitted_final_ui5_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-.fitted_final_ui6_gallery_cell:hover{
-	opacity: 0.5;
-}
 
 @media screen and (max-width: 1080px) {
 
@@ -929,39 +1105,9 @@ table tr:nth-child(2n+1) {
 		padding-right: 30px;
 	}
 
-	.prototype_screen1_gallery_cell{
-	    background-size: 350px 700px;
-		height: 700px;
-	}
-
-	.prototype_screen2_gallery_cell{
-		background-size: 350px 700px;
-	  	height: 700px;
-	}
-
-	.prototype_screen3_gallery_cell{
-		background-size: 350px 700px;
- 	    height: 700px;
-	}
-
-	.prototype_screen4_gallery_cell{
-		background-size: 350px 700px;
-	  	height: 700px;
-	}
-
-	.prototype_screen5_gallery_cell{
-		background-size: 350px 700px;
- 	    height: 700px;
-	}
-
-	.prototype_screen6_gallery_cell{
-		background-size: 350px 700px;
-   	    height: 700px;
-	}
-
-	.fitted_prototype_screen7_gallery_cell{
-		background-size: 300px 600px;
-		height: 600px;
+	.fitted_animation{
+		weight: 75px;
+		height: 512px;
 	}
 
 	.fitted_categories {
@@ -973,8 +1119,8 @@ table tr:nth-child(2n+1) {
 	}
 
 	.fitted_project_title {
-		font-size: 70px;
-		padding-top: 100px;
+		font-size: 80px;
+		padding-top: 250px;
 	}
 
 	.fitted_project_subtitle{
@@ -982,9 +1128,10 @@ table tr:nth-child(2n+1) {
         padding: 20px 5px 5px;
 	}
 
+
 	.fitted_persona  {
-	    height: 300px;
-	    background-size: 450px 300px;
+	    height: 250px;
+	    background-size: 400px 250px;
 	}
 
 	.rebecca_userflow1_gallery_cell{
@@ -1162,76 +1309,169 @@ table tr:nth-child(2n+1) {
 		background-size: 380px 300px;
 	}
 
+	.fitted_color1_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color2_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color3_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color4_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color5_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color6_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color7_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color8_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color9_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_color10_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_styleguide1_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_styleguide2_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_styleguide3_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_styleguide4_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_styleguide5_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+	.fitted_styleguide6_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+
+	.fitted_styleguide7_gallery_cell{
+		height: 300px;
+		background-size: 380px 300px;
+	}
+
+
+	.fitted_homescreen_breakpoints_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px
+	}
+
+	.fitted_calendar_breakpoints_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px
+	}
+
+	.fitted_exercises_breakpoints_gallery_cell{
+		height: 250px;
+		background-size: 400px 250px
+	}
+
 	.fitted_highfidelity1_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
+		height: 250px;
+		background-size: 350px 250px;
 	}
 
 	.fitted_highfidelity2_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
+		height: 250px;
+		background-size: 350px 250px;
 	}
 
 	.fitted_highfidelity3_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
+		height: 250px;
+		background-size: 350px 250px;
 	}
 
 	.fitted_highfidelity4_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
+		height: 250px;
+		background-size: 350px 250px;
 	}
 
 	.fitted_highfidelity5_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
+		height: 250px;
+		background-size: 350px 250px;
 	}
 
 	.fitted_highfidelity6_gallery_cell{
+		height: 250px;
+		background-size: 350px 250px;
+	}
+
+	.fitted_highfidelity7_gallery_cell{
+		height: 250px;
+		background-size: 350px 250px;
+	}
+
+	.fitted_highfidelity8_gallery_cell{
+		height: 250px;
+		background-size: 350px 250px;
+	}
+
+
+	.fitted_mockup1_gallery_cell{
 		height: 200px;
 		background-size: 350px 200px;
 	}
 
+	.fitted_mockup2_gallery_cell{
+		height: 200px;
+		background-size: 300px 200px;
+	}
 
-	.fitted_iteration1_gallery_cell{
+	.fitted_mockup3_gallery_cell{
 		height: 200px;
 		background-size: 350px 200px;
 	}
 
-	.fitted_iteration2_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
+	.fitted_mockup4_gallery_cell{
+		height: 180px;
+		background-size: 350px 180px;
 	}
 
-	.fitted_final_ui1_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
-	}
-
-	.fitted_final_ui2_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
-	}
-
-	.fitted_final_ui3_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
-	}
-
-	.fitted_final_ui4_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
-	}
-
-	.fitted_final_ui5_gallery_cell{
-		height: 200px;
-		background-size: 400px 200px;
-	}
-
-	.fitted_final_ui6_gallery_cell{
-		height: 200px;
-		background-size: 250px 200px;
-	}
 
 	table, tr, td {
 	    display: block;
