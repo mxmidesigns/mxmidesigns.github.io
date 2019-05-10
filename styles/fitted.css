@@ -347,8 +347,8 @@
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/fitted_moodboard2.svg") no-repeat center;
-	background-size: 650px 500px;
+	background: url("./../assets/moodboard1.jpg") no-repeat center;
+	background-size: 700px 500px;
 }
 
 
@@ -1250,8 +1250,8 @@ table tr:nth-child(2n+1) {
 	}
 
 	.fitted_moodboard_gallery_cell{
-		height: 400px;
-		background-size: 400px 400px;
+		height: 300px;
+		background-size: 400px 300px;
 	}
 
 	.fitted_typography1_gallery_cell{
