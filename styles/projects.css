@@ -13,6 +13,11 @@
     background-color: #ffffff;
 }
 
+.project-four {
+    height: 100%;
+    background-color: #ffffff;
+}
+
 .project-heading {
     font-weight: 300;
     line-height: 1;
@@ -43,6 +48,12 @@
 
 .project_three {
     width: 100%;
+    height: 450px;
+	display: block;
+}
+
+.project_four{
+	width: 100%;
     height: 450px;
 	display: block;
 }
@@ -131,6 +142,10 @@
 		height: 100%;
 	}
 
+	.project_four{
+		height: 100%;
+	}
+
     .project-one {
         padding-bottom: 20px;
     }
@@ -140,6 +155,10 @@
     }
 
 	.project-three {
+        padding-bottom: 20px;
+    }
+
+	.project-four {
         padding-bottom: 20px;
     }
 }

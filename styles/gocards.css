@@ -1,7 +1,7 @@
 .gocards_cover {
     width: 100%;
     height: 600px;
-    background: url("./../assets/gocard_header.jpg") no-repeat;
+    background: url("./../assets/gocards_header2.jpg") no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,7 +10,8 @@
 	text-align: center;
 	font-size: 90px;
 	padding-top: 200px;
-	color: white;
+	color: #ffffff;
+	text-shadow: 3px 3px #000000;
 }
 
 .gocards_project_subtitle{
@@ -18,12 +19,18 @@
 	font-size: 40px;
 	font-style: italic;
 	padding-top: 20px;
-	color: white;
+	color: #ffffff;
+
 }
 
 .gocards_button_project_container {
     text-align: center;
 	overflow: hidden;
+}
+
+.gocards_frame{
+	text-align: center;
+
 }
 
 .gocards_button_project {
@@ -427,6 +434,54 @@
 	background-size: 850px 600px;
 }
 
+.gocard_final1_gallery_cell{
+	width: 100%;
+	height: 500px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocards_finaldesign1.jpg") no-repeat center;
+	background-size: 1050px 500px;
+}
+
+.gocard_final2_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocards_finaldesign2.jpg") no-repeat center;
+	background-size: 1050px 550px;
+}
+
+.gocard_final3_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocards_finaldesign3.jpg") no-repeat center;
+	background-size: 1050px 550px;
+}
+
+.gocard_final4_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocards_finaldesign4.jpg") no-repeat center;
+	background-size: 1050px 550px;
+}
+
+
+.gocard_final5_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocards_finaldesign5.jpg") no-repeat center;
+	background-size: 1050px 550px;
+}
+
+.gocard_final6_gallery_cell{
+	width: 100%;
+	height: 550px;
+	counter-increment: gallery-cell;
+	background: url("./../assets/gocards_finaldesign6.jpg") no-repeat center;
+	background-size: 1050px 550px;
+}
 
 /* cell number */
 .gallery_cell:before {
@@ -626,6 +681,30 @@ table tr:nth-child(2n+1) {
 	opacity: 0.5;
 }
 
+.gocard_final1_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final2_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final3_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final4_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final5_gallery_cell:hover{
+	opacity: 0.5;
+}
+
+.gocard_final6_gallery_cell:hover{
+	opacity: 0.5;
+}
+
 @media screen and (max-width: 1080px) {
 
 	p.gocards_description {
@@ -696,7 +775,7 @@ table tr:nth-child(2n+1) {
 
 	.gocards_project_title {
 		font-size: 70px;
-		padding-top: 50px;
+		padding-top: 400px;
 
 	}
 
@@ -826,6 +905,41 @@ table tr:nth-child(2n+1) {
 		height: 200px;
 		background-size: 250px 200px;
 	}
+
+	.gocard_final1_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+
+	.gocard_final2_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+
+	.gocard_final3_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+
+	.gocard_final4_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+
+	.gocard_final5_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
+	.gocard_final6_gallery_cell{
+		height: 200px;
+		background-size: 350px 200px;
+	}
+
 
 	table, tr, td {
 	    display: block;

@@ -10,7 +10,7 @@
 	text-align: center;
 	font-size: 90px;
 	padding-top: 200px;
-	color: #ffffff;
+	color: #e76d89;
 	text-shadow: 3px 3px #000000;
 }
 
@@ -19,13 +19,17 @@
 	font-size: 40px;
 	font-style: italic;
 	padding-top: 20px;
-	color: #FF8C00;
+	color: #e76d89;
 	text-shadow: 2px 2px #000000;
 }
 
 .fitted_button_project_container {
     text-align: center;
 	overflow: hidden;
+}
+
+.fitted_frame{
+	text-align: center;
 }
 
 .fitted_button_project {
@@ -132,8 +136,8 @@
 }
 
 .fitted_animation{
-	weight: 75px;
-	height: 512px;
+	width: 300px;
+	height: 650px;
 }
 
 .fitted_container{
@@ -1471,6 +1475,13 @@ table tr:nth-child(2n+1) {
 		height: 180px;
 		background-size: 350px 180px;
 	}
+
+	.fitted_animation{
+		width: 250px;
+		height: 550px;
+	}
+
+
 
 
 	table, tr, td {
