@@ -19,6 +19,8 @@ a:hover, a:active, a:focus, a {
     outline: 0px none;
 }
 
+
+
 .header {
     grid-area: header;
     position: relative;
