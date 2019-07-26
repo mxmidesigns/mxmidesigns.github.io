@@ -173,37 +173,8 @@
     trackPage("Home Page Viewed");
     initializeHrefListener("Home Page");
 
-    function scrolledPastTopOfEle(ele) {
-      if(ele.getBoundingClientRect().top <= 0){
-         return true;
-      }
-      return false;
-    }
-    function scrolledPastBottomOfEle(ele) {
-      if(ele.getBoundingClientRect().bottom <= 0){
-        return true;
-      }
-      return false;
-    }
     const itemsToTrack = ["skills", "project-header", "ign-project", "fitted-project", "inktank-project", "gokards-project"];
-    const items = (itemsToTrack.map(id => document.getElementById(id))).concat([document.getElementById("footer")]);
-    const visitedItems = {};
-    items.forEach(id => {
-      visitedItems[`${id}-top`] = false;
-      visitedItems[`${id}-bottom`] = false;
-    });
-    window.addEventListener("scroll", function() {
-      items.forEach(elementTarget => {
-        if (!visitedItems[`${elementTarget.id}-top`] && scrolledPastTopOfEle(elementTarget)) {
-            visitedItems[`${elementTarget.id}-top`] = true;
-            trackAction("Home Page", `${elementTarget.id}-top`);
-        }
-        if (!visitedItems[`${elementTarget.id}-bottom`] && scrolledPastBottomOfEle(elementTarget)) {
-            visitedItems[`${elementTarget.id}-bottom`] = true;
-            trackAction("Home Page", `${elementTarget.id}-bottom`);
-        }
-      });
-    });
+    listenForScroll("Home Page", itemsToTrack)
   </script>
 
 </body>

@@ -69,6 +69,7 @@ function initializeHrefListener(currentPage) {
             var endTime = new Date();
             var href = e.srcElement.href;
             mixpanel.track("herf" , {
+                isCrawler: this.isCrawler(),
                 id: e.srcElement.id,
                 from: currentPage,
                 to: e.srcElement.href,
@@ -79,4 +80,37 @@ function initializeHrefListener(currentPage) {
             }
         }
     }
+}
+
+function scrolledPastTopOfEle(ele) {
+  if(ele.getBoundingClientRect().top <= 0){
+     return true;
+  }
+  return false;
+}
+function scrolledPastBottomOfEle(ele) {
+  if(ele.getBoundingClientRect().bottom <= 0){
+    return true;
+  }
+  return false;
+}
+function listenForScroll(page, itemsToTrack) {
+  const items = itemsToTrack.map(id => document.getElementById(id));
+  const visitedItems = {};
+  items.forEach(id => {
+    visitedItems[`${id}-top`] = false;
+    visitedItems[`${id}-bottom`] = false;
+  });
+  window.addEventListener("scroll", function() {
+    items.forEach(elementTarget => {
+      if (!visitedItems[`${elementTarget.id}-top`] && scrolledPastTopOfEle(elementTarget)) {
+          visitedItems[`${elementTarget.id}-top`] = true;
+          trackAction(page, `${elementTarget.id}-top`);
+      }
+      if (!visitedItems[`${elementTarget.id}-bottom`] && scrolledPastBottomOfEle(elementTarget)) {
+          visitedItems[`${elementTarget.id}-bottom`] = true;
+          trackAction(page, `${elementTarget.id}-bottom`);
+      }
+    });
+  });
 }
