@@ -24,9 +24,21 @@ function getMixpanelID() {
     return mixpanel;
 }
 
+function isCrawler() {
+  return /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|yandex/i
+    .test(navigator.userAgent);
+}
+
 function trackPage(page) {
    var mixpanel = getMixpanelID();
-   mixpanel.track(page);
+
+   mixpanel.track(page, {
+     isCrawler: this.isCrawler()
+   });
+}
+function trackAction(page, action) {
+   var mixpanel = getMixpanelID();
+   mixpanel.track(`${page}: ${action}`);
 }
 
 //find first parent with tagName [tagname]
