@@ -4,6 +4,8 @@ for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove delete".
 MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
 mixpanel.init("e24080f7359eedd12398809feba82b78");
 
+var analtyicsTimeStart = new Date();
+
 function analyticsUserIdGenerator() {
     var S4 = function() {
        return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
@@ -29,19 +31,27 @@ function isCrawler() {
     .test(navigator.userAgent);
 }
 
+function getTimeToLoadPage() {
+  return window.performance.timing.domContentLoadedEventEnd- window.performance.timing.navigationStart;
+}
+
+function track_(key, extraTrackers = {}) {
+  var mixpanel = getMixpanelID();
+
+  mixpanel.track(key, Object.assign({}, {
+    isCrawler: this.isCrawler(),
+    userAgent: navigator.userAgent,
+  }, extraTrackers));
+}
+
 function trackPage(page) {
-   var mixpanel = getMixpanelID();
-
-   mixpanel.track(page, {
-     isCrawler: this.isCrawler()
-   });
+   track_(page, {});
 }
+
 function trackAction(page, action) {
-   var mixpanel = getMixpanelID();
-   mixpanel.track(`${page}: ${action}`);
+   track_(`${page}: ${action}`, {});
 }
 
-//find first parent with tagName [tagname]
 function findParent(tagname,el){
   while (el){
     if ((el.nodeName || el.tagName).toLowerCase()===tagname.toLowerCase()){
@@ -69,7 +79,6 @@ function initializeHrefListener(currentPage) {
             var endTime = new Date();
             var href = e.srcElement.href;
             mixpanel.track("herf" , {
-                isCrawler: this.isCrawler(),
                 id: e.srcElement.id,
                 from: currentPage,
                 to: e.srcElement.href,
@@ -88,12 +97,14 @@ function scrolledPastTopOfEle(ele) {
   }
   return false;
 }
+
 function scrolledPastBottomOfEle(ele) {
   if(ele.getBoundingClientRect().bottom <= 0){
     return true;
   }
   return false;
 }
+
 function listenForScroll(page, itemsToTrack) {
   const items = itemsToTrack.map(id => document.getElementById(id));
   const visitedItems = {};
@@ -113,4 +124,20 @@ function listenForScroll(page, itemsToTrack) {
       }
     });
   });
+}
+
+function listenForLeave(page) {
+  window.onbeforeunload = function() {
+    track_(`Time on ${page}`, {
+      timeOnSite: new Date() - analtyicsTimeStart
+    });
+  }
+}
+
+function listenForOnLoad(page) {
+  window.onload = function() {
+    track_(`Time to render ${page}`, {
+      timeToRender: this.getTimeToLoadPage(),
+    });
+  }
 }
