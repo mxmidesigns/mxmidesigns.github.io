@@ -19,6 +19,7 @@
   <link rel="stylesheet" type="text/css" href="styles/flickity.css">
   <link rel="stylesheet" type="text/css" href="styles/gocards.css">
   <link rel="stylesheet" type="text/css" href="styles/art.css">
+  <link rel="stylesheet" type="text/css" href="styles/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -113,14 +114,27 @@
 
 
     <h1 class="title"> Artwork</h1>
-	<div class="artwork_carousel" data-sizes="50vw">
-       <div class="artwork1_gallery_cell" onclick="onImageClick(this)"></div>
-       <div class="artwork2_gallery_cell" onclick="onImageClick(this)"></div>
-       <div class="artwork3_gallery_cell" onclick="onImageClick(this)"></div>
-	   <div class="artwork4_gallery_cell" onclick="onImageClick(this)"></div>
-	   <div class="artwork5_gallery_cell" onclick="onImageClick(this)"></div>
-	   <div class="artwork6_gallery_cell" onclick="onImageClick(this)"></div>
-     </div>
+
+	 <div class="artwork_carousel" data-sizes="50vw">
+    <div>
+      <div class="artwork1_gallery_cell"></div>
+    </div>
+    <div>
+      <div class="artwork2_gallery_cell"></div>
+    </div>
+    <div>
+      <div class="artwork3_gallery_cell"></div>
+    </div>
+    <div>
+      <div class="artwork4_gallery_cell"></div>
+    </div>
+    <div>
+      <div class="artwork5_gallery_cell"></div>
+    </div>
+    <div>
+      <div class="artwork6_gallery_cell"></div>
+    </div>
+  </div>
 
 
 
@@ -202,6 +216,8 @@
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+	dots: true,
+	centerMode: true,
   });
 
   });
