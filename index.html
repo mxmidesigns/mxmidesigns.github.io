@@ -50,7 +50,6 @@
     <a href="art.html"><i class="fa fa-palette"></i> Art </a>
     <a href="about_me.html"><i class="fa fa-user"></i> About Me </a>
     <a href="contact.html"><i class="fa fa-envelope-open"></i> Contact </a>
-
   </div>
 
   <div class="header col-100">
@@ -112,6 +111,7 @@
     </div>
   </div>
 
+<<<<<<< HEAD
 
     <h1 class="title"> Vector Art</h1><br>
 
@@ -137,10 +137,13 @@
   	</div>
 
   <div class="project_header_v2">
+=======
+  <div id="project-header" class="project_header_v2">
+>>>>>>> 4f8c7049106c56db8d0cccf9dc0cfc79e721affc
     <p class="project_header_title"> Projects </p>
   </div>
 
-  <div class="projects col-100">
+  <div id="ign-project" class="projects col-100">
     <div class="project-four col-50">
       <img class="project_four" src="./assets/ign_mockup.png" alt="IGN">
     </div>
@@ -153,7 +156,7 @@
     </div>
   </div>
 
-  <div class="projects col-100">
+  <div id="fitted-project" class="projects col-100">
     <div class="project-three col-50">
       <img class="project_three" src="./assets/fitted_mockup2.png" alt="Fitted">
     </div>
@@ -166,7 +169,7 @@
     </div>
   </div>
 
-  <div class="projects col-100">
+  <div id="inktank-project" class="projects col-100">
     <div class="project-one col-50">
       <img class="project_one" src="./assets/inktank_wallpaper.jpg" alt="Ink Tank" />
     </div>
@@ -177,10 +180,9 @@
         <a href="inktank.html" class="buttons button_project">View Project Details</a>
       </div>
     </div>
-
   </div>
 
-  <div class="projects col-100">
+  <div id="gokards-project" class="projects col-100">
     <div class="project-two col-50">
       <img class="project_two" src="./assets/gocards_coverphoto.svg" alt="Gocards">
     </div>
@@ -193,13 +195,19 @@
     </div>
   </div>
 
-  <div class="footer">
+  <div id="footer" class="footer">
     <p class="footer_description">Copyright © Mai Nguyen. All rights reserved.</p>
   </div>
 
   <script>
+    var currentPage_ = "Home Page";
     trackPage("Home Page Viewed");
-    initializeHrefListener("Home Page");
+    initializeHrefListener(currentPage_);
+
+    const itemsToTrack = ["skills", "project-header", "ign-project", "fitted-project", "inktank-project", "gokards-project"];
+    listenForScroll(currentPage_, itemsToTrack);
+    listenForLeave(currentPage_);
+    listenForOnLoad(currentPage_);
   </script>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
