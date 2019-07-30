@@ -1,28 +1,24 @@
 .gocards_cover {
     width: 100%;
     height: 600px;
-    background: url("./../assets/gocards_header2.jpg") no-repeat;
+    background: url("./../assets/gocards_cover_page.png") no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+	margin-bottom: 50px;
 }
 
 .gocards_project_title {
-	text-align: center;
-	font-size: 90px;
+	text-align: left;
+	margin-left: 15%;
+	font-size: 60px;
 	padding-top: 200px;
-	-webkit-text-stroke: 1px #6200EE;
 	color: white;
-	text-shadow:
-		3px 3px 0 #6200EE,
-	  -1px -1px 0 #6200EE,
-	   1px -1px 0 #6200EE,
-	   -1px 1px 0 #6200EE,
-		1px 1px 0 #6200EE;
 }
 
 .gocards_project_subtitle{
-	text-align: center;
-	font-size: 40px;
+	text-align: left;
+	margin-left: 15%;
+	font-size: 25px;
 	font-style: italic;
 	padding-top: 20px;
 	color: #ffffff;
@@ -236,33 +232,6 @@
 }
 
 
-
-
-.ia1_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/inktank_sitemap.jpg") no-repeat center;
-	background-size: 850px 500px;
-}
-
-.ia2_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/card_sorting.jpg") no-repeat center;
-	background-size: 850px 500px;
-}
-
-.ia3_gallery_cell{
-	width: 100%;
-	height: 500px;
-	counter-increment: gallery-cell;
-	background: url("./../assets/similarity_matrix.jpg") no-repeat center;
-	background-size: 550px 500px;
-}
-
-
 .whitney_userflow1_gallery_cell{
 	width: 100%;
 	height: 400px;
@@ -396,8 +365,8 @@
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocard_finalui1.jpg") no-repeat center;
-	background-size: 1100px 500px;
+	background: url("./../assets/gocard_highfidelity1_cover.jpg") no-repeat center;
+	background-size: 800px 500px;
 }
 
 .gocard_final_ui2_gallery_cell{
@@ -444,8 +413,8 @@
 	width: 100%;
 	height: 500px;
 	counter-increment: gallery-cell;
-	background: url("./../assets/gocards_finaldesign1.jpg") no-repeat center;
-	background-size: 1050px 500px;
+	background: url("./../assets/gocard_finalui1_cover.jpg") no-repeat center;
+	background-size: 800px 500px;
 }
 
 .gocard_final2_gallery_cell{
@@ -781,7 +750,7 @@ table tr:nth-child(2n+1) {
 
 	.gocards_project_title {
 		font-size: 70px;
-		padding-top: 400px;
+		padding-top: 300px;
 
 	}
 
@@ -913,8 +882,8 @@ table tr:nth-child(2n+1) {
 	}
 
 	.gocard_final1_gallery_cell{
-		height: 200px;
-		background-size: 350px 200px;
+		height: 215px;
+		background-size: 350px 215px;
 	}
 
 
