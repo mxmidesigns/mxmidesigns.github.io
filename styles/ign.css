@@ -1,5 +1,6 @@
 .ign_cover {
-    width: 100%;
+	float: left;
+	width: 50%;
     height: 600px;
     background: url("./../assets/ign_header.png") no-repeat;
     background-repeat: no-repeat;
@@ -8,20 +9,26 @@
 	background-color:#D51D29;
 }
 
+.ign_text_cover {
+	float: left;
+	width: 50%;
+	background-color:#D51D29;
+    height: 600px;
+}
+
 .ign_project_title {
-	width: 35%;
+	width: 80%;
 	padding-left: 40px;
 	padding-top: 150px;
-
 }
 
 .ign_project_subtitle{
 	text-align: left;
-	width: 50%;
 	font-size: 25px;
 	font-style: italic;
 	padding-top: 20px;
-	padding-left: 60px;
+	padding-left: 50px;
+    padding-right: 50px;
 	color: white;
 }
 
@@ -307,80 +314,6 @@
 	text-transform: uppercase;
 }
 
-table {
-  width: 100%;
-}
-
-table th{
-	background-color: #CEBDFE;
-	height: 50px;
-}
-
-table td{
-	text-align: left;
-    vertical-align: middle;
-	padding-bottom: 25px;
-	line-height: 1.5;
-}
-
-table td, table th {
-  padding: 10px;
-}
-
-.table_icons {
-  height: 40px;
-  width: 40px;
-  background-position: center;
-}
-
-
-table tr:nth-child(2n) {
-  background-color: white;
-}
-table tr:nth-child(2n+1) {
-  background-color: #f2e6ff;
-}
-
-.table-users {
-  border: 1px solid #ebccff;
-  border-radius: 10px;
-  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
-  max-width: calc(100% - 2em);
-  margin: 1em auto;
-  overflow: hidden;
-  width: 800px;
-}
-
-.ign_prototype_screen1_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-
-.ign_prototype_screen2_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-.ign_prototype_screen3_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-.ign_prototype_screen4_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-.ign_prototype_screen5_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-.ign_prototype_screen6_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-.ign_prototype_screen7_gallery_cell:hover{
-	opacity: 0.5;
-}
-
-
 .ign_esports_page1_gallery_cell:hover{
 	opacity: 0.5;
 }
@@ -389,7 +322,6 @@ table tr:nth-child(2n+1) {
 	opacity: 0.5;
 }
 
-
 .ign_schedule_page1_gallery_cell:hover{
 	opacity: 0.5;
 }
@@ -397,7 +329,6 @@ table tr:nth-child(2n+1) {
 .ign_schedule_page2_gallery_cell:hover{
 	opacity: 0.5;
 }
-
 
 .ign_navigation_bar1_gallery_cell:hover{
 	opacity: 0.5;
@@ -428,6 +359,23 @@ table tr:nth-child(2n+1) {
 }
 
 
+@media screen and (max-width: 700px) {
+	.ign_text_cover {
+		width: 100%;
+		height: 400px;
+    	text-align: center;
+	}
+
+	.ign_cover {
+		width: 100%;
+		height: 400px;
+	}
+
+	.ign_project_title {
+		padding: 0;
+	}
+}
+
 @media screen and (max-width: 1080px) {
 
 	p.ign_description {
@@ -453,58 +401,21 @@ table tr:nth-child(2n+1) {
 		padding-right: 10px;
 	}
 
-	.ign_prototype_screen1_gallery_cell{
-	    background-size: 350px 700px;
-		height: 700px;
-	}
-
-	.ign_prototype_screen2_gallery_cell{
-		background-size: 350px 700px;
-	  	height: 700px;
-	}
-
-	.ign_prototype_screen3_gallery_cell{
-		background-size: 350px 700px;
- 	    height: 700px;
-	}
-
-	.ign_prototype_screen4_gallery_cell{
-		background-size: 350px 700px;
-	  	height: 700px;
-	}
-
-	.ign_prototype_screen5_gallery_cell{
-		background-size: 350px 700px;
- 	    height: 700px;
-	}
-
-	.ign_prototype_screen6_gallery_cell{
-		background-size: 350px 700px;
-   	    height: 700px;
-	}
-
-	.ign_prototype_screen7_gallery_cell{
-		background-size: 300px 600px;
-		height: 600px;
-	}
-
 	.ign_categories {
 	   text-align: center;
 	}
 
-	.ign_cover {
-	    height: 600px;
-	}
-
 	.ign_project_title {
-		font-size: 70px;
-		padding-top: 50px;
-
+		width: 80%;
+		padding-left: 50px;
+		padding-top: 30px;
 	}
 
 	.ign_project_subtitle{
-		font-size: 25px;
-        padding: 20px 5px 5px;
+		font-size: 30px;
+        text-align: center;
+		padding-left: 5%;
+		width: 100%;
 	}
 
 
@@ -517,7 +428,6 @@ table tr:nth-child(2n+1) {
 		height: 200px;
 		background-size: 350px 200px;
 	}
-
 
 	.ign_schedule_page1_gallery_cell{
 		height: 200px;
