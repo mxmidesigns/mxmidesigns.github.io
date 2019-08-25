@@ -19,13 +19,10 @@
       // ========================================
       const segment = 1
 
-      sessionStorage.redirect = '/' + location.pathname.slice(1).split('/').slice(segment).join('/')
-      console.log("Part 1: " + '/' + location.pathname.slice(1).split('/').slice(segment).join('/'));
-      console.log("Part 2: " + location.pathname.split('/').slice(0, 1 + segment).join('/'));
+      sessionStorage.redirect = location.pathname.split('/').slice(0, 1 + segment).join('/');
 
-      // location.replace(
-      //   location.pathname.split('/').slice(0, 1 + segment).join('/')
-      // )
+      console.log();
+      location.replace(location.hostname);
     </script>
   </head>
 </html>
