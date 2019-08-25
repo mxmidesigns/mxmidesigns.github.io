@@ -20,8 +20,6 @@
       const segment = 1
 
       sessionStorage.redirect = location.pathname.split('/').slice(0, 1 + segment).join('/');
-
-      console.log();
       location.replace(location.hostname);
     </script>
   </head>
